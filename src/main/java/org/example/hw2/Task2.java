@@ -5,7 +5,6 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите значения: ");
         int sum = 0;
-
         int a = scanner.nextInt();
         while (a != 0){
             int b = scanner.nextInt();
@@ -14,9 +13,7 @@ public class Task2 {
             }
             a = b;
         }
-
         System.out.println(sum);
         scanner.close();
     }
-
 }

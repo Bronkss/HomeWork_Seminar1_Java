@@ -30,7 +30,7 @@ public class Task2 {
         scanner.close();
     }
 
-    private static Integer[] append(Integer[] arr, int element)
+    public static Integer[] append(Integer[] arr, int element)
     {
         List<Integer> list = new ArrayList<>(Arrays.asList(arr));
         list.add(element);
